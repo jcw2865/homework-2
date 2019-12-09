@@ -26,6 +26,7 @@ hr {
 .container {
     background-color: white;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 footer {
@@ -97,4 +98,10 @@ p {
 
 img {
     object-fit: fill;
+}
+
+@media screen and (max-width: 768px) {
+.wrapper {
+		width: 600px;
+	}
 }
