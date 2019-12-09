@@ -44,7 +44,7 @@ footer {
     font-size: 10px;
 }
 
-header {
+#header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
     color: white;
@@ -55,10 +55,11 @@ header {
 
 h2 {
     width: fit-content;
-    font-size: 30px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: white;
+    padding: 20px;
+    font-size: 30px;
 }
 
 p {
@@ -98,6 +99,20 @@ p {
 
 img {
     object-fit: fill;
+}
+
+a {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#navigation {
+    justify-content: space-between;
+}
+
+#borders {
+    border-left: solid;
+    border-right: solid;
+    border-width: thin;
 }
 
 @media screen and (max-width: 768px) {
