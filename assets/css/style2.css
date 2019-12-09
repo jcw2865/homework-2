@@ -47,6 +47,9 @@ header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
     color: white;
+    font-size: 20px;
+    padding: 2%;
+    width: fit-content;
 }
 
 h2 {
