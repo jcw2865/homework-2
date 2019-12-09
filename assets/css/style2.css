@@ -49,7 +49,7 @@ h2 {
     color: white;
 }
 
-#aboutme {
+.header {
     width: fit-content;
     font-size: 30px;
     color: #4aaaa5;
