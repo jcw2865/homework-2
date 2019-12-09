@@ -11,12 +11,18 @@ hr {
 }
 
 .photobox {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     float: left;
 }
 
 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#selfie {
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -55,4 +61,8 @@ h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: white;
+}
+
+p {
+    line-height: 2;
 }
