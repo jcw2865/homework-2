@@ -43,13 +43,13 @@ footer {
     font-size: 10px;
 }
 
-h2 {
+header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
     color: white;
 }
 
-.header {
+h2 {
     width: fit-content;
     font-size: 30px;
     color: #4aaaa5;
@@ -74,7 +74,7 @@ p {
 }
 
 .picbox {
-    margin: 50px;
+    margin: 10px;
     max-width: 100%;
     height: auto;
     position: relative;
@@ -94,6 +94,4 @@ p {
 
 img {
     object-fit: fill;
-    width: 300px;
-    height: 300px;
 }
