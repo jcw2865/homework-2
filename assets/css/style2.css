@@ -27,6 +27,7 @@ hr {
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px;
+    max-width: 75%;
 }
 
 footer {
@@ -125,7 +126,15 @@ a {
     border-width: thin;
 }
 
+
 @media screen and (max-width: 768px) {
+    #navbarNav {
+        display: block;
+    }
+}
+
+
+/* @media screen and (max-width: 768px) {
 .wrapper {
 		width: 600px;
     }
@@ -134,4 +143,4 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
-}
+} */
